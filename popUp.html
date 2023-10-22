@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="box">
-        <a id="hideDownload" class="hidden"></a>
+      <a id="hideDownload" class="hidden"></a>
 
-        <button type="button" class="btn copy">
-            <img src="copy.svg" alt="copy btn" />
-        </button>
-        <button type="button" class="btn save">
-            <img src="download.svg" alt="copy btn" />
-        </button>
+      <input type="file" id="urlFile" class="hidden">
 
+      <button type="button" class="btn copy">
+        <img src="copy.svg" alt="copy btn" />
+      </button>
+      <button type="button" class="btn save">
+        <img src="download.svg" alt="copy btn" />
+      </button>
+
+      <button type="button" class="btn saveAsJson">
+        <img src="json.svg" alt="copy btn" />
+      </button>
+
+      <button type="button" class="btn upload">
+        <img src="upload.svg" alt="copy btn" />
+      </button>
     </div>
 
     <script src="script.js"></script>
-
-</body>
+  </body>
 </html>
